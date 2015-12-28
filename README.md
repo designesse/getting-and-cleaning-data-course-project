@@ -1,7 +1,7 @@
 ### Getting and Cleaning Data (getdata-035)
 
 This repository contains the file completed according to the Getting Cleaning
-Data (get-data-035) Course project. It contains :
+Data (get-data-035) Course project. It contains:
 
 - run_analysis.R : the main script manipulating data as specified by the
 course project instructions
