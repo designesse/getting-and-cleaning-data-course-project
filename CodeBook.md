@@ -15,3 +15,6 @@ and unzipped the folder "UCI HAR Dataset" into your working directory).
 The resulting data_frame from the 5th step is available as the get-data-035-course-project.txt file.
 You can also export this data frame by uncommenting the last line of the run_analysis.R and run it
 or run the run_analysis.R and use the mean_std_by_subject_activity data frame to export it as desired.
+
+The run_analysis.R script also contains the steps as well as additional comments to explain how the steps
+have ben implemented.
