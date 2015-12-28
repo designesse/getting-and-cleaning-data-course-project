@@ -44,3 +44,6 @@ colnames(mean_std_data) <- data_col_names
 # 5. From the data step in 4, creates a second, independent tidy data set with the average of each 
 # variable for each activity and each subject.
 mean_std_by_subject_activity <- aggregate(.~subject+activity, data = mean_std_data, mean, na.rm = TRUE)
+
+# Export your data with
+# write.table(mean_std_by_subject_activity, "get-data-035-course-project.txt", row.names=FALSE)
